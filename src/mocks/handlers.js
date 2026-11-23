@@ -49,7 +49,7 @@ const opcionesPorDestino = {
     osaka: {
         vuelos: [
             { id: 'v-osa-1', aerolinea: 'Pacífico Air', origen: 'Santiago (SCL)', salida: '2027-03-10', llegada: '2027-03-11', precio: 1450000, asientosDisponibles: 12 },
-            { id: 'v-osa-2', aerolinea: 'Andes Global', origen: 'Santiago (SCL)', salida: '2027-04-02', llegada: '2027-04-03', precio: 1320000, asientosDisponibles: 8 }
+            { id: 'v-osa-2', aerolinea: 'Andes Global', origen: 'Santiago (SCL)', salida: '2027-03-10', llegada: '2027-03-11', precio: 1320000, asientosDisponibles: 8 }
         ],
         hoteles: [
             { id: 'h-osa-1', nombre: 'Hotel Namba Central', estrellas: 4, precioNoche: 95000, noches: 5, desde: '2027-03-11', hasta: '2027-03-16', habitacionesDisponibles: 6 },
@@ -58,8 +58,8 @@ const opcionesPorDestino = {
     },
     rio: {
         vuelos: [
-            { id: 'v-rio-1', aerolinea: 'Pacífico Air', origen: 'Santiago (SCL)', salida: '2027-02-05', llegada: '2027-02-05', precio: 520000, asientosDisponibles: 20 },
-            { id: 'v-rio-2', aerolinea: 'Andes Global', origen: 'Santiago (SCL)', salida: '2027-02-19', llegada: '2027-02-19', precio: 565000, asientosDisponibles: 4 }
+            { id: 'v-rio-1', aerolinea: 'Pacífico Air', origen: 'Santiago (SCL)', salida: '2027-02-05', llegada: '2027-02-05', precio: 520000, asientosDisponibles: 10 },
+            { id: 'v-rio-2', aerolinea: 'Andes Global', origen: 'Santiago (SCL)', salida: '2027-02-05', llegada: '2027-02-05', precio: 565000, asientosDisponibles: 4 }
         ],
         hoteles: [
             { id: 'h-rio-1', nombre: 'Hotel Orla Copacabana', estrellas: 4, precioNoche: 88000, noches: 6, desde: '2027-02-05', hasta: '2027-02-11', habitacionesDisponibles: 8 },
@@ -68,8 +68,8 @@ const opcionesPorDestino = {
     },
     madrid: {
         vuelos: [
-            { id: 'v-mad-1', aerolinea: 'Andes Global', origen: 'Santiago (SCL)', salida: '2027-05-14', llegada: '2027-05-15', precio: 780000, asientosDisponibles: 9 },
-            { id: 'v-mad-2', aerolinea: 'Pacífico Air', origen: 'Santiago (SCL)', salida: '2027-06-03', llegada: '2027-06-04', precio: 830000, asientosDisponibles: 15 }
+            { id: 'v-mad-1', aerolinea: 'Andes Global', origen: 'Santiago (SCL)', salida: '2027-05-14', llegada: '2027-05-15', precio: 780000, asientosDisponibles: 5 },
+            { id: 'v-mad-2', aerolinea: 'Pacífico Air', origen: 'Santiago (SCL)', salida: '2027-05-14', llegada: '2027-05-15', precio: 830000, asientosDisponibles: 10 }
         ],
         hoteles: [
             { id: 'h-mad-1', nombre: 'Hotel Gran Vía Real', estrellas: 4, precioNoche: 105000, noches: 5, desde: '2027-05-15', hasta: '2027-05-20', habitacionesDisponibles: 5 },
@@ -79,7 +79,7 @@ const opcionesPorDestino = {
     cdmx: {
         vuelos: [
             { id: 'v-mex-1', aerolinea: 'Pacífico Air', origen: 'Santiago (SCL)', salida: '2027-04-21', llegada: '2027-04-21', precio: 640000, asientosDisponibles: 7 },
-            { id: 'v-mex-2', aerolinea: 'Andes Global', origen: 'Santiago (SCL)', salida: '2027-05-08', llegada: '2027-05-08', precio: 610000, asientosDisponibles: 10 }
+            { id: 'v-mex-2', aerolinea: 'Andes Global', origen: 'Santiago (SCL)', salida: '2027-04-21', llegada: '2027-04-21', precio: 610000, asientosDisponibles: 10 }
         ],
         hoteles: [
             { id: 'h-mex-1', nombre: 'Hotel Reforma Centro', estrellas: 4, precioNoche: 79000, noches: 5, desde: '2027-04-21', hasta: '2027-04-26', habitacionesDisponibles: 11 },
