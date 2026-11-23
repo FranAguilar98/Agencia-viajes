@@ -1,0 +1,13 @@
+/* Estilos base globales (lo demás se hace con clases de Tailwind con prefijo tw) */
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  background-color: #f5f8ee;
+  color: #14262a;
+}

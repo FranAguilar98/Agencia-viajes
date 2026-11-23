@@ -1,0 +1,16 @@
+/*
+  Tailwind CSS v4 con PREFIJO "tw".
+*/
+@import "tailwindcss" prefix(tw);
+
+@theme {
+  --color-fondo: #123f45;
+  --color-fondo-oscuro: #0c2c31;
+  --color-fondo-claro: #1b5660;
+  --color-lima: #d4f58b;
+  --color-lima-fuerte: #b9e35f;
+  --color-crema: #f5f8ee;
+  --color-tinta: #14262a;
+  --color-alerta: #ffd9d2;
+  --color-exito: #d9f5c9;
+}
